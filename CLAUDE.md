@@ -4,7 +4,7 @@ Guidance for Claude Code working in this repository.
 
 ## Project
 
-*Hearthlight* (working title): a browser-based, top-down magic survival game built from simple geometric shapes. Controls are mouse and touch only. Magic is cast by drawing glyphs.
+*Witchroam* (working title): a browser-based, top-down magic survival game built from simple geometric shapes. Controls are mouse and touch only. Magic is cast by drawing glyphs.
 
 **The design document is the source of truth:** [`docs/GAME_DESIGN.md`](docs/GAME_DESIGN.md). Read the relevant section before implementing a feature. Requirements have stable IDs (`FR-SURV-03`, `FR-MAG-04`, and so on). Reference them in commit messages and code comments.
 

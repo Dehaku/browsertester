@@ -1,6 +1,6 @@
-# Hearthlight — Game Design Document
+# Witchroam — Game Design Document
 
-> **Working title:** *Hearthlight* (placeholder — rename freely)
+> **Working title:** *Witchroam*
 > **Status:** Draft v0.1 — pre-production
 > **Platform:** Browser (desktop and mobile), single-page, no install
 > **Repository:** [dehaku/browsertester](https://github.com/dehaku/browsertester)
@@ -37,7 +37,7 @@ This document is the source of truth for what the game is and how it should beha
 
 ## 1. Vision
 
-*Hearthlight* is a 2D top-down survival exploration game about a witch who wakes in a wild land with no memory. She must keep her body and mind alive while she relearns magic. Magic is drawn, not typed: she traces glyphs in the air to light fires, coax plants from the soil, and conjure lights that push back the dark.
+*Witchroam* is a 2D top-down survival exploration game about a witch who wakes in a wild land with no memory. She must keep her body and mind alive while she relearns magic. Magic is drawn, not typed: she traces glyphs in the air to light fires, coax plants from the soil, and conjure lights that push back the dark.
 
 The game is built from simple geometric shapes. Clarity of shape and color carries the meaning. The mood is quiet, eerie, and warm: the tension between the cold outside and the fire you keep alive.
 
@@ -601,7 +601,7 @@ Each milestone is built and verified before the next starts. Each has checkable 
 ### M3 — World
 - Seeded chunk generation for all six biomes.
 - A* pathing, POIs, forage patches, and wells.
-- Golden test for the seed `hearthlight-0001` produces a stable tile hash.
+- Golden test for the seed `witchroam-0001` produces a stable tile hash.
 - **Done when:** the world has no soft-locks (FR-WORLD-02 verified by a reachability test).
 
 ### M4 — Spells in the World
@@ -647,7 +647,7 @@ These need a decision before the milestone that depends on them.
 
 | # | Question | Needed by | Recommendation |
 |---|----------|-----------|----------------|
-| Q1 | Final game name? | M0 | Keep *Hearthlight* until a better name is chosen |
+| Q1 | Final game name? | M0 | **Resolved 2026-10-31:** renamed to *Witchroam* (formerly *Hearthlight*) |
 | Q2 | Is death permanent (roguelite) or always Waking (cozy)? | M2 | Waking only in v1; revisit after playtests |
 | Q3 | Single-stroke glyphs only, or multi-stroke from v1? | M1 | Single-stroke for v1 (see FR-MAG-07) |
 | Q4 | World size: fixed map or endless chunks? | M3 | Fixed large map with a seeded layout, so the story can be placed |
